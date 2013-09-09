@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">    
+    <attributetypes>
+        <attributetype handle="remo_phasher" package="remo_phasher">
+            <categories>
+                <category handle="file"/>
+            </categories>
+        </attributetype>
+    </attributetypes>    
+    <attributekeys>
+        <attributekey handle="image_hash" name="Image Hash" package="" searchable="1" indexed="1" type="remo_phasher" category="file"/>
+    </attributekeys>
+</concrete5-cif>
